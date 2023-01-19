@@ -142,6 +142,7 @@ const Guestbook = ({ fallback }) => {
   return (
     <SWRConfig value={{ fallback }}>
       <main className="max-w-4xl mx-auto p-4">
+        <h1 className='py-16 text-3xl font-black text-center'>Vercel deployment</h1>
         <AppHead />
         <div
           className={cn(
